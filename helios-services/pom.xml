@@ -159,7 +159,7 @@
         <dependency>
             <groupId>io.dropwizard</groupId>
             <artifactId>dropwizard-core</artifactId>
-            <version>0.7.1</version>
+            <version>0.9.0</version>
         </dependency>
         <dependency>
             <groupId>javax.ws.rs</groupId>
@@ -409,8 +409,7 @@
                     </filters>
                     <transformers>
                         <!--The ServicesResourceTransformer is needed to make jersey happy-->
-                        <transformer
-                                implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                        <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                     </transformers>
                 </configuration>
             </plugin>
