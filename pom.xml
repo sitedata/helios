@@ -182,7 +182,7 @@
             <dependency>
                 <groupId>com.fasterxml.jackson.jaxrs</groupId>
                 <artifactId>jackson-jaxrs-json-provider</artifactId>
-                <version>2.9.10</version>
+                <version>2.11.0</version>
             </dependency>
             <dependency>
                 <groupId>joda-time</groupId>
@@ -297,7 +297,7 @@
             <dependency>
                 <groupId>com.google.cloud</groupId>
                 <artifactId>google-cloud-pubsub</artifactId>
-                <version>0.5.1</version>
+                <version>1.77.0</version>
                 <exclusions>
                     <exclusion>
                         <groupId>javax.servlet</groupId>
